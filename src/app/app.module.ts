@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { TreeComponent } from './tree/tree.component';
 import { PresentsComponent } from './presents/presents.component';
 import { ActionsComponent } from './actions/actions.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ActionsComponent } from './actions/actions.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
