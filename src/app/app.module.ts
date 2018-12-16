@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TreeComponent } from './tree/tree.component';
 import { PresentsComponent } from './presents/presents.component';
+import { ActionsComponent } from './actions/actions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TreeComponent,
-    PresentsComponent
+    PresentsComponent,
+    ActionsComponent
   ],
   imports: [
     BrowserModule,
