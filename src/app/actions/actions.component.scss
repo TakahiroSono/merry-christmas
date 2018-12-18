@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 2.5vw;
+    height: 32px;
+    @media screen and (max-width:479px) {
+        margin-top: 10px;
+        height: 24px;
+    }
+    li{
+        display: inline-block;
+        height: 100%;
+        @media screen and (max-width:479px) {
+            margin-bottom: 20px;
+        }
+        button{
+            font-size: 27px;
+        }
+    }
+}
