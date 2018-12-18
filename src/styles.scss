@@ -30,3 +30,9 @@ $merry-christmas-theme: mat-light-theme($merry-christmas-primary, $merry-christm
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+// Style Initialize
+* {
+    margin: 0;
+    padding: 0;
+}
