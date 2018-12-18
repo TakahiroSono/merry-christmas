@@ -1,3 +1,5 @@
-<div class="present">
-    <img alt="present" src="../../assets/christmas_presents.png">
+<div class="present" *ngFor="let present of presents">
+    <div class="present__{{present.id}}">
+        <img alt="{{present.name}}" src="../../assets/{{present.src}}">
+    </div>
 </div>

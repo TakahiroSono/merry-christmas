@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PRESENTS } from '../mock-presents';
+import { Present } from '../present';
 
 @Component({
   selector: 'app-presents',
@@ -6,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./presents.component.scss']
 })
 export class PresentsComponent implements OnInit {
+  presents: Present[] = PRESENTS;
 
   constructor() { }
 
